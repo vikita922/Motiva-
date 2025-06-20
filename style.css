@@ -1,0 +1,53 @@
+:root {
+  --color-1: #a9b09c;
+  --color-2: #bac3ac;
+  --color-3: #eaede8;
+  --color-4: #ffffff;
+}
+
+body {
+  background: linear-gradient(90deg, var(--color-1) 0%, var(--color-1) 25%, var(--color-2) 25%, var(--color-2) 50%, var(--color-3) 50%, var(--color-3) 75%, var(--color-4) 75%, var(--color-4) 100%);
+}body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right,#18c3f8, #18c3f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 2em;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color:#18c3f8;
+  margin-bottom: 1em;
+}
+
+#quote {
+  font-size: 1.1em;
+  margin: 1em 0;
+  color: #333;
+}
+
+button {
+  background: #18c3f8;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #18c3f8;
+}
